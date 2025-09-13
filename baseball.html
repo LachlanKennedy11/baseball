@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHSAA Baseball Rules</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .slide {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-xl overflow-hidden min-h-[calc(100vh-3rem)] flex flex-col">
+        <!-- Header -->
+        <header class="bg-gray-800 text-white p-6 rounded-t-lg">
+            <h1 class="text-3xl font-bold text-center">AHSAA Baseball Rules: An Overview</h1>
+        </header>
+
+        <!-- Main Content (Slides) -->
+        <main class="flex-grow p-8 relative">
+            <!-- Slide 1: Player & Team Eligibility -->
+            <div id="slide1" class="slide">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-800">Slide 1: Player & Team Eligibility</h2>
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-1/2">
+                        <ul class="list-disc pl-5 space-y-4 text-gray-700">
+                            <li>
+                                <span class="font-semibold">Age & Enrollment:</span> To be eligible, a player must be enrolled by the 20th school day of the semester and must not have turned 19 before August 1st of the current school year.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Academic Requirements:</span> Students in grades 10-12 must have passed a minimum of six units (including four core courses) with a composite average of 70 in the previous two semesters.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Participation Limits:</span> A student is eligible for a maximum of four seasons and eight consecutive semesters after entering the 9th grade.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Transfer Rules:</span> A student who transfers must generally attend the new school for one full calendar year to regain athletic eligibility.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Non-School Teams:</span> The "Fifty-Percent Rule" may limit how many high school teammates can play on the same non-school team.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/2 flex items-center justify-center p-4">
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/400x300/e5e7eb/6b7280?text=Baseball+Team+Image" alt="A team of high school baseball players." class="rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Game-Specific Rules -->
+            <div id="slide2" class="slide">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-800">Slide 2: Game-Specific Rules</h2>
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-1/2 flex items-center justify-center p-4">
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/400x300/d1d5db/374151?text=Pitching+Illustration" alt="An illustration of a baseball pitcher on the mound." class="rounded-lg shadow-md">
+                    </div>
+                    <div class="lg:w-1/2">
+                        <ul class="list-disc pl-5 space-y-4 text-gray-700">
+                            <li>
+                                <span class="font-semibold">Pitch Count is Key:</span> This is a major safety rule.
+                                <ul class="list-disc pl-8 mt-2 space-y-2 text-sm text-gray-600">
+                                    <li>Varsity: 120 pitches max/day</li>
+                                    <li>JV/Freshmen: 100 pitches max/day</li>
+                                    <li>Middle School: 85 pitches max/day</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="font-semibold">Mandatory Rest:</span> Required rest periods are based on the number of pitches thrown. For example, a varsity pitcher who throws 76+ pitches needs three calendar days of rest.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Game Length:</span> Class 7A teams can play up to 32 games, while Classes 1A-6A can play up to 28 games. No more than two games per day are allowed.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Mercy Rule:</span> A game can end after five innings if one team is leading by 10 or more runs.
+                            </li>
+                            <li class="mt-4">
+                                <a href="https://www.youtube.com/watch?v=your-video-link-here" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                    Watch Pitch Count Demo
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Differences from MLB -->
+            <div id="slide3" class="slide">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-800">Slide 3: Key Differences from MLB</h2>
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="lg:w-1/2 flex items-center justify-center p-4">
+                        <!-- Image placeholder -->
+                        <img src="https://placehold.co/400x300/f3f4f6/374151?text=Double+First+Base" alt="A double first base, showing the white and colored sections." class="rounded-lg shadow-md">
+                    </div>
+                    <div class="lg:w-1/2">
+                        <ul class="list-disc pl-5 space-y-4 text-gray-700">
+                            <li>
+                                <span class="font-semibold">Re-entry:</span> Starters may re-enter the game once, but must be in their original spot in the batting order.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Balks:</span> A balk is an immediate dead ball in high school.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Bat Rules:</span> High school bats must meet a specific BBCOR performance standard.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Safety & Slides:</span> Rules prohibit "pop-up" or "rolling" slides that make contact with a fielder, as well as hurdling or jumping over a fielder.
+                            </li>
+                            <li>
+                                <span class="font-semibold">Double First Base:</span> Starting in the 2027 season, a double first base will be required to prevent collisions.
+                            </li>
+                            <li class="mt-4">
+                                <a href="https://www.nfhs.org/rules" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                                    Official NFHS Rulebook
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Navigation Buttons -->
+        <footer class="bg-gray-800 p-4 flex justify-between items-center rounded-b-lg">
+            <button id="prevBtn" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                Previous
+            </button>
+            <div class="flex space-x-2">
+                <button onclick="showSlide(0)" class="w-8 h-8 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-bold transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500">1</button>
+                <button onclick="showSlide(1)" class="w-8 h-8 rounded-full bg-gray-500 hover:bg-gray-600 text-white font-bold transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500">2</button>
+                <button onclick="showSlide(2)" class="w-8 h-8 rounded-full bg-gray-500 hover:bg-gray-600 text-white font-bold transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500">3</button>
+            </div>
+            <button id="nextBtn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 transform hover:scale-105">
+                Next
+            </button>
+        </footer>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const nextBtn = document.getElementById('nextBtn');
+        const prevBtn = document.getElementById('prevBtn');
+        const slideButtons = document.querySelectorAll('footer button[onclick^="showSlide"]');
+        let currentSlide = 0;
+
+        function updateButtons() {
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === slides.length - 1;
+            prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+            nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+            
+            slideButtons.forEach((btn, index) => {
+                if (index === currentSlide) {
+                    btn.classList.remove('bg-gray-500', 'hover:bg-gray-600');
+                    btn.classList.add('bg-blue-500', 'hover:bg-blue-600');
+                } else {
+                    btn.classList.remove('bg-blue-500', 'hover:bg-blue-600');
+                    btn.classList.add('bg-gray-500', 'hover:bg-gray-600');
+                }
+            });
+        }
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.style.display = 'none');
+            slides[index].style.display = 'block';
+            currentSlide = index;
+            updateButtons();
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                showSlide(currentSlide + 1);
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        });
+
+        // Initial slide display
+        document.addEventListener('DOMContentLoaded', () => {
+            showSlide(0);
+        });
+
+    </script>
+</body>
+</html>
